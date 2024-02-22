@@ -1,0 +1,10 @@
+{
+    "html.autoClosingTags": false,
+    "html.autoCreateQuotes": false,
+    "html.format.enable": false,
+    "html.format.indentHandlebars": true,
+    "html.format.preserveNewLines": false,
+    "html.hover.documentation": true,
+    "html.hover.references": true,
+    "html.suggest.html5": true
+}

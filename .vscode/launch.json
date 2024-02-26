@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "debug run.py",
+            "request": "launch",
+            "justMyCode": false,
+            "args": [],
+            "program": "/Users/yes/Desktop/Choco_Dealer/run.py"
+        }
+    ]
+}

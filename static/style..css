@@ -1,0 +1,85 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #63f36c;
+    padding: 20px;
+    image-rendering: crisp-edges;
+    box-shadow: #333;
+}
+
+.header .img img {
+    width: 60px; /* Замените на желаемый размер вашего логотипа */
+    height: auto;
+}
+
+.header h1 {
+    color: #ff5e00;
+    margin: 30px 0;
+}
+
+.header ul li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Стили для секции загрузки */
+.download_wrap {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.download {
+    margin-bottom: 30px;
+}
+
+.download h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.download h2 {
+    color: #666;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+
+.btn_block .btn:hover {
+    background-color: #ff8533;
+}
+
+.btn {
+    color: #ff5e00;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Максимальная высота изображения */
+}
